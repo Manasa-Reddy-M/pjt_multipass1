@@ -1,0 +1,29 @@
+diff --git a/Maanschema.sql b/Maanschema.sql
+index 1547513..f22f658 100644
+--- a/Maanschema.sql
++++ b/Maanschema.sql
+@@ -29,8 +29,7 @@ CREATE TABLE `SREPYMTS` (
+   `DOB` date DEFAULT NULL,
+   `age` int(100) DEFAULT NULL,
+   `phn_num` int(11) DEFAULT NULL,
+-  `username` varchar(40) DEFAULT NULL,
+-  `address` varchar(100) DEFAULT NULL
++  `username` varchar(40) DEFAULT NULL
+ ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+ /*!40101 SET character_set_client = @saved_cs_client */;
+ /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+@@ -43,4 +42,4 @@ CREATE TABLE `SREPYMTS` (
+ /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+ /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+ 
+--- Dump completed on 2022-06-28 12:52:04
++-- Dump completed on 2022-06-28 12:54:20
+diff --git a/counter.json b/counter.json
+index 7813681..62f9457 100644
+--- a/counter.json
++++ b/counter.json
+@@ -1 +1 @@
+-5
+\ No newline at end of file
++6
+\ No newline at end of file
