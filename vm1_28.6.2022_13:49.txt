@@ -1,0 +1,178 @@
+diff --git a/Maanschema.sql b/Maanschema.sql
+index a9d03fc..333507d 100644
+--- a/Maanschema.sql
++++ b/Maanschema.sql
+@@ -41,4 +41,4 @@ CREATE TABLE `SREPYMTS` (
+ /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+ /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+ 
+--- Dump completed on 2022-06-28 13:38:28
++-- Dump completed on 2022-06-28 13:49:05
+diff --git a/alters/alter10.txt b/alters/alter10.txt
+deleted file mode 100644
+index 36d5684..0000000
+--- a/alters/alter10.txt
++++ /dev/null
+@@ -1,8 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+-username	varchar(40)	YES		NULL	
+diff --git a/alters/alter11.txt b/alters/alter11.txt
+deleted file mode 100644
+index c198bc7..0000000
+--- a/alters/alter11.txt
++++ /dev/null
+@@ -1,7 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+diff --git a/alters/alter2.txt b/alters/alter2.txt
+deleted file mode 100644
+index 36d5684..0000000
+--- a/alters/alter2.txt
++++ /dev/null
+@@ -1,8 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+-username	varchar(40)	YES		NULL	
+diff --git a/alters/alter3.txt b/alters/alter3.txt
+deleted file mode 100644
+index 36d5684..0000000
+--- a/alters/alter3.txt
++++ /dev/null
+@@ -1,8 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+-username	varchar(40)	YES		NULL	
+diff --git a/alters/alter4.txt b/alters/alter4.txt
+deleted file mode 100644
+index 36d5684..0000000
+--- a/alters/alter4.txt
++++ /dev/null
+@@ -1,8 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+-username	varchar(40)	YES		NULL	
+diff --git a/alters/alter5.txt b/alters/alter5.txt
+deleted file mode 100644
+index 9337913..0000000
+--- a/alters/alter5.txt
++++ /dev/null
+@@ -1,9 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+-username	varchar(40)	YES		NULL	
+-address	varchar(100)	YES		NULL	
+diff --git a/alters/alter6.txt b/alters/alter6.txt
+deleted file mode 100644
+index 9337913..0000000
+--- a/alters/alter6.txt
++++ /dev/null
+@@ -1,9 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+-username	varchar(40)	YES		NULL	
+-address	varchar(100)	YES		NULL	
+diff --git a/alters/alter7.txt b/alters/alter7.txt
+deleted file mode 100644
+index 36d5684..0000000
+--- a/alters/alter7.txt
++++ /dev/null
+@@ -1,8 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+-username	varchar(40)	YES		NULL	
+diff --git a/alters/alter8.txt b/alters/alter8.txt
+deleted file mode 100644
+index 36d5684..0000000
+--- a/alters/alter8.txt
++++ /dev/null
+@@ -1,8 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+-username	varchar(40)	YES		NULL	
+diff --git a/alters/alter9.txt b/alters/alter9.txt
+deleted file mode 100644
+index ab72026..0000000
+--- a/alters/alter9.txt
++++ /dev/null
+@@ -1,9 +0,0 @@
+-Field	Type	Null	Key	Default	Extra
+-name	varchar(40)	YES		NULL	
+-id	int(11)	YES		NULL	
+-email	varchar(40)	YES		NULL	
+-DOB	date	YES		NULL	
+-age	int(100)	YES		NULL	
+-phn_num	int(11)	YES		NULL	
+-username	varchar(40)	YES		NULL	
+-address	varchar(80)	YES		NULL	
+diff --git a/alters/counter.json b/alters/counter.json
+deleted file mode 100644
+index 9d60796..0000000
+--- a/alters/counter.json
++++ /dev/null
+@@ -1 +0,0 @@
+-11
+\ No newline at end of file
+diff --git a/changes/counter.json b/changes/counter.json
+index 9d60796..3cacc0b 100644
+--- a/changes/counter.json
++++ b/changes/counter.json
+@@ -1 +1 @@
+-11
+\ No newline at end of file
++12
+\ No newline at end of file
+diff --git a/counter.json b/counter.json
+index 9a03714..9d60796 100644
+--- a/counter.json
++++ b/counter.json
+@@ -1 +1 @@
+-10
+\ No newline at end of file
++11
+\ No newline at end of file

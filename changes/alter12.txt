@@ -5,3 +5,4 @@ email	varchar(40)	YES		NULL
 DOB	date	YES		NULL	
 age	int(100)	YES		NULL	
 phn_num	int(11)	YES		NULL	
+address	varchar(50)	YES		NULL	
